@@ -1,3 +1,5 @@
+#include "game.c"
+
 int main() {
-// comentario para mostrar o commit
+    newGame();
 }
