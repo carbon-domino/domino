@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "components/main_menu.h"
 #include "components/action_menu.h"
-#include "game.c"
+#include "controller/game.c"
 
 int main() {
 
