@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include "time.h"
 #include "../components/Piece.h"
 
 void fillPieces(struct Piece bank[]) {
