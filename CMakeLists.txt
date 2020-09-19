@@ -18,4 +18,4 @@ add_executable(domino
         view/display.h
         view/main_menu.c
         view/main_menu.h
-        main.c)
+        main.c model/gameModel.h)

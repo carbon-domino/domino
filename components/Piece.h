@@ -1,5 +1,5 @@
-#ifndef _PIECE_H_
-#define _PIECE_H_
+#ifndef DOMINO_PIECE_H_
+#define DOMINO_PIECE_H_
 #endif
 
 typedef struct Piece {
