@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h> 
-#include "../components/Piece.h"
+#include "../model/gameModel.h"
+#include "display.h"
 
 struct Piece bank[28];
 struct Piece playerOne[21];
@@ -9,6 +9,9 @@ struct Piece board[28];
 struct Piece usedPieces[28];
 
 void newGame() {
-    //fillPieces(bank[28]);
-    printf("Filling pieces");
+    fillPieces(bank);
+
+    for (int x = 0; x < 28; x++) {
+        showDisplay(bank[x]);
+    }
 }
