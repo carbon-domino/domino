@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "view/main_menu.h"
-#include "controller/gameController.h"
+#include "gameController.h"
 
 int main() {
     int option;
