@@ -1,5 +1,5 @@
-#ifndef _ACTION_MENU_H_
-#define _ACTION_MENU_H_
+#ifndef DOMINO_ACTION_MENU_H_
+#define DOMINO_ACTION_MENU_H_
 #endif
 
 void showActionMenu();

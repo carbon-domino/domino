@@ -1,5 +1,5 @@
-#ifndef _DISPLAY_H_
-#define _DISPLAY_H_
+#ifndef DOMINO_DISPLAY_H_
+#define DOMINO_DISPLAY_H_
 #endif
 
 #include <Piece.h>
