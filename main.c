@@ -1,33 +1,36 @@
 #include <stdio.h>
-#include "components/main_menu.h"
-#include "components/action_menu.h"
-#include "controller/game.c"
+#include "view/main_menu.h"
+#include "controller/gameController.h"
 
 int main() {
-
-    char option;
+    int option;
 
     do {
-        showMainMenu();
-        option = getchar();
+        option = showMainMenu();
 
         switch (option){
-        case '1': printf("Iniciando novo jogo...\n");
+        case '1': 
+            printf("Iniciando novo jogo...\n");
             newGame();
             break;
-        case '2': printf("Continuando\n");
+        case '2': 
+            printf("Continuando\n");
             //call the function
             break;
-        case '3': printf("Salvando jogo...\n");
+        case '3': 
+            printf("Salvando jogo...\n");
             //call the function
             break;
-        case '4': printf("Carregando jogo...\n");
+        case '4': 
+            printf("Carregando jogo...\n");
             //call the function
             break;
-        case '5': printf("Regras do jogo:\n");
+        case '5': 
+            printf("Regras do jogo:\n");
             //call the function
             break;
-        case '6': printf("Voce saiu do jogo.\n");
+        case '6': 
+            printf("Voce saiu do jogo.\n");
             break;
         }
     } while(option != '6');
