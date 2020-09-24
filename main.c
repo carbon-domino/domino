@@ -12,6 +12,7 @@ int main() {
         case 1:
             printf("Iniciando novo jogo...\n");
             newGame();
+            setNumberOfPlayers();
             break;
         case 2:
             printf("Continuando\n");
