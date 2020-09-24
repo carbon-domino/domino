@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../controller/gameController.h
+
+../view/gameView.h
+
+/Users/caiobaracat/Development/puc/domino/controller/gameController.c
+stdio.h
+-
+gameView.h
+-
+gameModel.h
+-
+
+/Users/caiobaracat/Development/puc/domino/main.c
+stdio.h
+-
+gameView.h
+/Users/caiobaracat/Development/puc/domino/gameView.h
+gameController.h
+/Users/caiobaracat/Development/puc/domino/gameController.h
+
+/Users/caiobaracat/Development/puc/domino/view/gameView.c
+stdio.h
+-
+gameModel.h
+-
+

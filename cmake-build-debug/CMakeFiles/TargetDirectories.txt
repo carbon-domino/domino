@@ -1,0 +1,3 @@
+/Users/caiobaracat/Development/puc/domino/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/caiobaracat/Development/puc/domino/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/caiobaracat/Development/puc/domino/cmake-build-debug/CMakeFiles/domino.dir
