@@ -1,8 +1,12 @@
+//
+// Created by Caio Baracat on 23/09/20.
+//
+
 #ifndef DOMINO_GAMEMODEL_H
 #define DOMINO_GAMEMODEL_H
+
 #endif //DOMINO_GAMEMODEL_H
 
-#include "Piece.h"
 
 typedef struct Piece {
     int SideA;

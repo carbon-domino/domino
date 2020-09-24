@@ -1,6 +1,10 @@
-#include <stdlib.h>
+//
+// Created by Caio Baracat on 23/09/20.
+//
+
 #include "time.h"
-#include "../components/Piece.h"
+#include "stdlib.h"
+#include "gameModel.h"
 
 void fillPieces(struct Piece bank[]) {
     int counter = 0;
@@ -23,3 +27,5 @@ int randomAccess(int min, int max) {
     srand(time(0));
     return (rand() % (max - min + 1)) + min;
 }
+
+
