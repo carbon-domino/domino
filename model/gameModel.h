@@ -4,4 +4,13 @@
 
 #include "Piece.h"
 
+typedef struct Piece {
+    int SideA;
+    int SideB;
+} Piece;
+
+typedef struct Player {
+    struct Piece hand[7];
+};
+
 void fillPieces(struct Piece bank[]);
