@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <gameView.h>
-#include <gameModel.h>
-
+#include "gameView.h"
+#include "gameModel.h"
 
 struct Piece bank[28];
 struct Piece playerOne[21];
@@ -11,5 +10,4 @@ struct Piece usedPieces[28];
 
 void newGame() {
     fillPieces(bank);
-
 }
