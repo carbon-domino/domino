@@ -7,7 +7,6 @@
 
 #endif //DOMINO_GAMEMODEL_H
 
-
 typedef struct Piece {
     int SideA;
     int SideB;
@@ -15,6 +14,6 @@ typedef struct Piece {
 
 typedef struct Player {
     struct Piece hand[7];
-};
+} Player;
 
 void fillPieces(struct Piece bank[]);
