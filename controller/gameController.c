@@ -15,3 +15,18 @@ void newGame() {
         showDisplay(bank[x]);
     }
 }
+
+void setNumberOfPlayers() {
+    int players;
+    askNumberOfPlayers();
+    do {
+        scanf("%d", &players);
+        if (players == 1){
+            // 1 player
+        } else if (players == 2){
+            // 2 players
+        } else {
+            askNumberOfPlayers();
+        }
+    } while (players != 1 || players != 2);
+}
