@@ -3,3 +3,4 @@
 #endif
 
 void showDisplay (struct Piece p);
+void askNumberOfPlayers();
