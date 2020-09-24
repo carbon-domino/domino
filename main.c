@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "view/main_menu.h"
+#include "gameView.h"
 #include "gameController.h"
 
 int main() {
